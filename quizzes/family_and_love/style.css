@@ -1,0 +1,546 @@
+@media screen and (max-width: 650px) {
+    body {
+        background-color: #161616;
+    }
+    
+    i{
+        color:white;
+        font-size: 30px;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      
+    }
+    h1{
+        color: #ffa63c;
+        font-size: 60px;
+        
+    }
+    #topic{
+        height: 270px;
+        width: 275px;
+      
+    }
+    #info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #636981;
+        color:white;
+        margin-top: 15px;
+        height: 100px;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    #info p{
+        text-align: center;
+    }
+    #buttonContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 155px;
+        animation: fadeIn 2.9s ease-in-out;
+    }
+    #btn{
+        background-color: #eed97c;
+        color: black;
+        width: 170px;
+        height: 40px;
+        border: none;
+        border-radius: 6px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #btn:active{
+        background-color: gray;
+    }
+    p{
+        color: white;
+        font-weight: bold;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 85px;
+    }
+    .menu p{
+        font-size: 20px;
+    }
+    
+    footer{
+        background-color: gray;
+        height: 50px;
+      
+        margin: 120px -10px -10px -10px;
+       
+    }
+    footer p{
+        font-family: monospace;
+        text-align: center;
+        padding: 15px;
+        font-size: 12px;
+    }
+    #menuwrap {
+      display: none;
+      flex-direction: column;
+      background-color: gray;
+      padding: 10px;
+      overflow: hidden;
+      max-height: 0;
+    }
+
+    .clicked {
+      display: flex;
+      max-height: 510px;
+      animation: slideDown 1.5s ease-in-out forwards;
+    }
+
+    @keyframes slideDown {
+      from {
+        max-height: 0;
+      }
+      to {
+        max-height: 510px;
+      }
+    }
+    #menuwrap p{
+      font-size: 20px;
+      margin-left: 13px;
+    }
+   
+    #menu:active{
+        color: cyan;
+        margin-top: -8px;
+    }
+    .quest {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #36454F;
+        height: 570px;
+        padding: 10px 10px 55px 10px;
+        margin-top: 15px;
+        margin-bottom: 115px;
+      
+    }
+    .wrap{
+        background-color: #eed97c;
+        height: 65px;
+        border-radius: 5px;
+        border: none;
+        width: 300px;
+        margin-top: 15px;
+        padding: 15px;
+        color: black;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .wrap p{
+        color: black;
+        font-size: 19px;
+    }
+    .question{
+        
+        background-color:orange ;
+        height: 125px;
+        width: 90%;
+        padding: 15px;
+       
+    }
+    .question p{
+        color: black;
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .butwrap{
+        text-align: right;
+        margin-left: auto;
+        margin-top: 30px;
+    }
+    .back{
+        background-color: gray;
+        color: black;
+        height: 35px;
+        width: 90px;
+        border: none;
+        font-weight: bold;
+        font-size: 14px;
+        border-radius: 5px;
+        margin-right: 40px;
+    }
+    .next{
+        background-color: green;
+        color: white;
+        height: 45px;
+        width: 110px;
+        border: none;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 5px;
+        margin-left: 40px;
+        margin-top: 30px;
+        
+    }
+    .back:active{
+        background-color: cyan;
+    }
+    .next:active{
+        background-color: cyan;
+    }
+    #one{
+        display: none;
+    }
+    
+    #one,
+    #two,
+    #three,
+    #four,
+    #five,
+    #six,
+    #seven,
+    #eight,
+    #nine,
+    #ten,
+    #eleven,
+    #twelve,
+    #thirteen,
+    #fourteen,
+    #fifteen{
+        display: none;
+    }
+    #complete{
+        height: 270px;
+        width: 270px;
+    }
+    #seewrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #see{
+        width: 130px;
+        height: 50px;
+        font-size: 19px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        background-color: violet;
+        color: black;
+    }
+    #see:active{
+        background-color: cyan;
+    }
+   
+    a{
+        text-decoration: none;
+        color: white;
+    }
+     @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    #completed{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation: fadeIn 2s ease-in-out;
+    }
+}
+
+
+
+
+
+
+
+/*////❌❌❌ system below */
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 651px) {
+    body {
+        background-color: #161616;
+    }
+    
+    i{
+        color:white;
+        font-size: 30px;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      
+    }
+    h1{
+        color: #ffa63c;
+        font-size: 60px;
+        
+    }
+    #topic{
+        height: 270px;
+        width: 275px;
+      
+    }
+    #info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #636981;
+        color:white;
+        margin-top: 15px;
+        height: 100px;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    #info p{
+        text-align: center;
+    }
+    #buttonContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 155px;
+        animation: fadeIn 2.9s ease-in-out;
+    }
+    #btn{
+        background-color: #eed97c;
+        color: black;
+        width: 170px;
+        height: 40px;
+        border: none;
+        border-radius: 6px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #btn:active{
+        background-color: gray;
+    }
+    p{
+        color: white;
+        font-weight: bold;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 85px;
+    }
+    .menu p{
+        font-size: 20px;
+    }
+    
+    footer{
+        background-color: gray;
+        height: 50px;
+      
+        margin: 120px -10px -10px -10px;
+       
+    }
+    footer p{
+        font-family: monospace;
+        text-align: center;
+        padding: 15px;
+        font-size: 12px;
+    }
+    #menuwrap {
+      display: none;
+      flex-direction: column;
+      background-color: gray;
+      padding: 10px;
+      overflow: hidden;
+      max-height: 0;
+    }
+
+    .clicked {
+      display: flex;
+      max-height: 510px;
+      animation: slideDown 1.5s ease-in-out forwards;
+    }
+
+    @keyframes slideDown {
+      from {
+        max-height: 0;
+      }
+      to {
+        max-height: 510px;
+      }
+    }
+    #menuwrap p{
+      font-size: 20px;
+      margin-left: 13px;
+    }
+   
+    #menu:active{
+        color: cyan;
+        margin-top: -8px;
+    }
+    .quest {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #36454F;
+        height: 570px;
+        padding: 10px 10px 55px 10px;
+        margin-top: 15px;
+        margin-bottom: 115px;
+      
+    }
+    .wrap{
+        background-color: #eed97c;
+        height: 65px;
+        border-radius: 5px;
+        border: none;
+        width: 90%;
+        margin-top: 15px;
+        padding: 15px;
+        color: black;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .wrap p{
+        color: black;
+        font-size: 19px;
+    }
+    .question{
+        
+        background-color:orange ;
+        height: 125px;
+        width: 90%;
+        padding: 15px;
+       
+    }
+    .question p{
+        color: black;
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .butwrap{
+        text-align: right;
+        margin-left: auto;
+        margin-top: 30px;
+    }
+    .back{
+        background-color: gray;
+        color: black;
+        height: 35px;
+        width: 90px;
+        border: none;
+        font-weight: bold;
+        font-size: 14px;
+        border-radius: 5px;
+        margin-right: 40px;
+    }
+    .next{
+        background-color: green;
+        color: white;
+        height: 45px;
+        width: 110px;
+        border: none;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 5px;
+        margin-left: 40px;
+        margin-top: 30px;
+        
+    }
+    .back:active{
+        background-color: cyan;
+    }
+    .next:active{
+        background-color: cyan;
+    }
+    #one{
+        display: none;
+    }
+    
+    #one,
+    #two,
+    #three,
+    #four,
+    #five,
+    #six,
+    #seven,
+    #eight,
+    #nine,
+    #ten,
+    #eleven,
+    #twelve,
+    #thirteen,
+    #fourteen,
+    #fifteen{
+        display: none;
+    }
+    #complete{
+        height: 270px;
+        width: 270px;
+    }
+    #seewrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #see{
+        width: 130px;
+        height: 50px;
+        font-size: 19px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        background-color: violet;
+        color: black;
+    }
+    #see:active{
+        background-color: cyan;
+    }
+   
+    a{
+        text-decoration: none;
+        color: white;
+    }
+     @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    #completed{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation: fadeIn 2s ease-in-out;
+    }
+}

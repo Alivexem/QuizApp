@@ -1,0 +1,386 @@
+<!DOCTYPE Html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" />
+    </head>
+    <body>
+        <header>
+        
+        <h1> BABEL </h1>
+        <i id="menu" class="fas fa-bars"></i>
+        </header>
+        <div id="menuwrap">
+                <p><a href="../../home/page2.html"> Back to home</a></p>
+                
+                <p id="refresh"> Refresh </p>
+        </div>
+        <hr>
+        <div id="info">
+            <p> FAMILY AND LOVE</p>
+            <p>GOODLUCK ON THIS QUEST! </p>
+        </div>
+        
+        <hr>
+        <div id="buttonContainer">
+            <button id="btn">start quiz</button>
+        </div>
+        <div id="completed">
+            <p style="text-align: center; font-size: 30px; font-weight: bold; margin-top: -10px; color:lime;">QUIZ COMPLETED!</p>
+            <img id="complete" src="complete.png" alt="">
+            <p style="text-align: center; font-size: 30px; font-weight: bold; margin-top: -10px;">TOTAL SCORE: <span id="quizScore">0</span> out of 15</p>
+            <div id="seewrap">
+            <button id="see">See answers</button>
+        </div>
+        </div>
+        <div class="block">
+        <div id="one" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">1/15</p>
+            <div class="question">
+            <p>What is the traditional symbol for love on Valentine's Day?</p>
+            </div>
+            <div class="wrap ones" data-value="true">
+                a. Red Rose
+            </div>
+            
+            <div class="wrap ones" data-value="false">
+                 b.  White Lily
+            </div>
+            
+            <div class="wrap ones" data-value="false">
+                 c. Yellow Daisy
+            </div>
+            <div class="butwrap">
+                
+                 <button id="onebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="two" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">2/15</p>
+            <div class="question">
+            <p>In which year is the celebration of Mother's Day observed in many countries?</p>
+            </div>
+            <div class="wrap twos" data-value="true">
+                a. Second Sunday of May
+            </div>
+            
+            <div class="wrap twos" data-value="false">
+                 b. First Sunday of June
+            </div>
+            
+            <div class="wrap twos" data-value="false">
+                c. Third Sunday of March
+            </div>
+            <div class="butwrap">
+                
+                 <button id="twobut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="three" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">3/15</p>
+            <div class="question">
+            <p>What term is commonly used to describe a close-knit group consisting of parents and their children?</p>
+            </div>
+            <div class="wrap threes" data-value="false">
+                a. Society
+            </div>
+            
+            <div class="wrap threes" data-value="true">
+                 b.  Family
+            </div>
+            
+            <div class="wrap threes" data-value="false">
+                 c. Clan
+            </div>
+            <div class="butwrap">
+                
+                 <button id="threebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="four" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">4/15</p>
+            <div class="question">
+            <p>What is the common name for the legal dissolution of a marriage?</p>
+            </div>
+            <div class="wrap fours" data-value="false">
+                a. Wedding
+            </div>
+            
+            <div class="wrap fours" data-value="true">
+                 b. Divorce
+            </div>
+            
+            <div class="wrap fours" data-value="false">
+                 c. Separation
+            </div>
+            <div class="butwrap">
+                
+                 <button id="fourbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="five" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">5/15</p>
+            <div class="question">
+            <p>Which word is often used to describe the bond between siblings?</p>
+            </div>
+            <div class="wrap fives" data-value="false">
+                a. Companionship
+            </div>
+            
+            <div class="wrap fives" data-value="false">
+                 b.  Siblinghood
+            </div>
+            
+            <div class="wrap fives" data-value="true">
+                 c. Brotherhood/Sisterhood
+            </div>
+            <div class="butwrap">
+                
+                 <button id="fivebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="six" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">6/15</p>
+            <div class="question">
+            <p>What is the anniversary celebrated after 25 years of marriage called?</p>
+            </div>
+            <div class="wrap sixs" data-value="true">
+                a. Silver Anniversary
+            </div>
+            
+            <div class="wrap sixs" data-value="false">
+                 b. Golden Anniversary
+            </div>
+            
+            <div class="wrap sixs" data-value="false">
+                 c. Diamond Anniversary 
+            </div>
+            <div class="butwrap">
+                
+                 <button id="sixbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="seven" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">7/15</p>
+            <div class="question">
+            <p>In family dynamics, what is the term for a generation that includes grandparents, parents, and children living together?</p>
+            </div>
+            <div class="wrap sevens" data-value="false">
+                a. Nuclear family
+            </div>
+            
+            <div class="wrap sevens" data-value="true">
+                 b.  Extended family
+            </div>
+            
+            <div class="wrap sevens" data-value="false">
+                 c. Blended family
+            </div>
+            <div class="butwrap">
+                
+                 <button id="sevenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="eight" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">8/15</p>
+            <div class="question">
+            <p>What is the common name for a child born between two sets of twins?</p>
+            </div>
+            <div class="wrap eights" data-value="false">
+                a. Quadruplet
+            </div>
+            
+            <div class="wrap eights" data-value="true">
+                b. Triplet
+            </div>
+            
+            <div class="wrap eights" data-value="false">
+                c. Middle Child
+            </div>
+            <div class="butwrap">
+                
+                 <button  id="eightbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="nine" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">9/15</p>
+            <div class="question">
+            <p>What is the significance of a baby's first tooth eruption in many cultures?</p>
+            </div>
+            <div class="wrap nines" data-value="false">
+                a. Symbol of intelligence
+            </div>
+            
+            <div class="wrap nines" data-value="false">
+                 b.  Sign of good luck
+            </div>
+            
+            <div class="wrap nines" data-value="true">
+                c. Milestone in growth and development
+            </div>
+            <div class="butwrap">
+               
+                 <button id="ninebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="ten" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">10/15</p>
+            <div class="question">
+            <p>What emotion is often associated with the phrase "butterflies in the stomach" when in love?</p>
+            </div>
+            <div class="wrap tens" data-value="true">
+                a. Excitement
+            </div>
+            
+            <div class="wrap tens" data-value="false">
+                 b. Nervousness
+            </div>
+            
+            <div class="wrap tens" data-value="false">
+                c. Hunger
+            </div>
+            <div class="butwrap">
+                
+                 <button id="tenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="eleven" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">11/15</p>
+            <div class="question">
+            <p>Which parenting style emphasizes high demands and low responsiveness?</p>
+            </div>
+            <div class="wrap elevens" data-value="false">
+                a. Authoritative
+            </div>
+            
+            <div class="wrap elevens" data-value="true">
+                 b.  Authoritarian
+            </div>
+            
+            <div class="wrap elevens" data-value="false">
+                c. Permissive
+            </div>
+            <div class="butwrap">
+                
+                 <button id="elevenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="twelve" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">12/15</p>
+            <div class="question">
+            <p>What is the common term for a family consisting of a married couple and their children?</p>
+            </div>
+            <div class="wrap twelves" data-value="false">
+               a. Extended family
+            </div>
+            
+            <div class="wrap twelves" data-value="true">
+                b. Nuclear family 
+            </div>
+            
+            <div class="wrap twelves" data-value="false">
+                 c. Joint family
+            </div>
+            <div class="butwrap">
+               
+                 <button id="twelvebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="thirteen" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">13/15</p>
+            <div class="question">
+            <p>In many cultures, what is the role of the best man in a wedding ceremony?</p>
+            </div>
+            <div class="wrap thirteens" data-value="false">
+                a. Lead dancer
+            </div>
+            
+            <div class="wrap thirteens" data-value="true">
+                b.  Witness to the marriage
+            </div>
+            
+            <div class="wrap thirteens" data-value="false">
+                c. Musical performer
+            </div>
+            <div class="butwrap">
+                
+                 <button id="thirteenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="fourteen" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">14/15</p>
+            <div class="question">
+            <p>What is the emotional bond or connection that develops between an infant and their primary caregiver?</p>
+            </div>
+            <div class="wrap fourteens" data-value="true">
+                a. Attachment
+            </div>
+            
+            <div class="wrap fourteens" data-value="false">
+                b. Affection
+            </div>
+            
+            <div class="wrap fourteens" data-value="false">
+                c. Dependency
+            </div>
+            <div class="butwrap">
+                
+                 <button id="fourteenbut"  class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="fifteen" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">15/15</p>
+            <div class="question">
+            <p>Which annual celebration is dedicated to honoring fathers and fatherhood?</p>
+            </div>
+            <div class="wrap fifteens" data-value="true">
+               a. Father's Day
+            </div>
+            
+            <div class="wrap fifteens" data-value="false">
+                 b.  Grandparents' Day
+            </div>
+            
+            <div class="wrap fifteens" data-value="false">
+                c. Uncle's Day
+            </div>
+            <div class="butwrap">
+               
+                 <button id="fifteenbut" class="next" style="background-color: violet; width: 150px; height: 55px; font-size: 20px;"> Submit </button>
+            </div>
+        </div>
+        
+        </div>
+        
+        
+       
+        <footer>
+            <p>&copy copyright AlivexemTech 2024; all rights reserved.</p>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>

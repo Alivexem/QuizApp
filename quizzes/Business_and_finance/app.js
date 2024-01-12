@@ -63,7 +63,113 @@ start_btn.addEventListener("click",() => {
     first_quest.style.display = "flex"
     window.location.hash = ("#one")
 })
-
+let first_quests = document.querySelectorAll(".ones")
+    first_quests.forEach((item) => {
+        item.addEventListener("click",() => {
+            first_btn.style.pointerEvents = "auto"
+            first_btn.style.backgroundColor = "green"
+        })
+    })
+    let second_quests = document.querySelectorAll(".twos")
+    second_quests.forEach((item) => {
+        item.addEventListener("click",() => {
+            second_btn.style.pointerEvents = "auto"
+            second_btn.style.backgroundColor = "green"
+        })
+    })
+    let third_quests = document.querySelectorAll(".threes")
+    third_quests.forEach((item) => {
+        item.addEventListener("click",() => {
+            third_btn.style.pointerEvents = "auto"
+            third_btn.style.backgroundColor = "green"
+        })
+    })
+    let fourth_quests = document.querySelectorAll(".fours")
+    fourth_quests.forEach((item) => {
+        item.addEventListener("click",() => {
+            fourth_btn.style.pointerEvents = "auto"
+            fourth_btn.style.backgroundColor = "green"
+        })
+    })
+    let fifth_quests = document.querySelectorAll(".fives")
+    fifth_quests.forEach((item) => {
+        item.addEventListener("click",() => {
+            fifth_btn.style.pointerEvents = "auto"
+            fifth_btn.style.backgroundColor = "green"
+        })
+    })
+    let sixth_quests = document.querySelectorAll(".sixs")
+    sixth_quests.forEach((item) => {
+        item.addEventListener("click",() => {
+            sixth_btn.style.pointerEvents = "auto"
+            sixth_btn.style.backgroundColor = "green"
+        })
+    })
+    let seventh_quests = document.querySelectorAll(".sevens")
+    seventh_quests.forEach((item) => {
+        item.addEventListener("click",() => {
+            seventh_btn.style.pointerEvents = "auto"
+            seventh_btn.style.backgroundColor = "green"
+        })
+    })
+    let eighth_quests = document.querySelectorAll(".eights")
+    eighth_quests.forEach((item) => {
+        item.addEventListener("click",() => {
+            eighth_btn.style.pointerEvents = "auto"
+            eighth_btn.style.backgroundColor = "green"
+        })
+    })
+    let ninth_quests = document.querySelectorAll(".nines")
+    ninth_quests.forEach((item) => {
+        item.addEventListener("click",() => {
+            ninth_btn.style.pointerEvents = "auto"
+            ninth_btn.style.backgroundColor = "green"
+        })
+    })
+    let tenth_quests = document.querySelectorAll(".tens")
+    tenth_quests.forEach((item) => {
+        item.addEventListener("click",() => {
+            tenth_btn.style.pointerEvents = "auto"
+            tenth_btn.style.backgroundColor = "green"
+        })
+    })
+    let eleventh_quests = document.querySelectorAll(".elevens")
+    eleventh_quests.forEach((item) => {
+        item.addEventListener("click",() => {
+            eleventh_btn.style.pointerEvents = "auto"
+            eleventh_btn.style.backgroundColor = "green"
+        })
+    })
+    let twelfth_quests = document.querySelectorAll(".twelves")
+    twelfth_quests.forEach((item) => {
+        item.addEventListener("click",() => {
+            twelfth_btn.style.pointerEvents = "auto"
+            twelfth_btn.style.backgroundColor = "green"
+        })
+    })
+    let thirteenth_quests = document.querySelectorAll(".thirteens")
+    thirteenth_quests.forEach((item) => {
+        item.addEventListener("click",() => {
+            thirteenth_btn.style.pointerEvents = "auto"
+            thirteenth_btn.style.backgroundColor = "green"
+        })
+    })
+    let fourteenth_quests = document.querySelectorAll(".fourteens")
+    fourteenth_quests.forEach((item) => {
+        item.addEventListener("click",() => {
+            fourteenth_btn.style.pointerEvents = "auto"
+            fourteenth_btn.style.backgroundColor = "green"
+        })
+    })
+    let fifteenth_quests = document.querySelectorAll(".fifteens")
+    fifteenth_quests.forEach((item) => {
+        item.addEventListener("click",() => {
+            fifteenth_btn.style.pointerEvents = "auto"
+            fifteenth_btn.style.backgroundColor = "green"
+        })
+    })
+    
+    
 first_btn.addEventListener("click", () => {
       first_quest.style.display = "none";
     second_quest.style.display = "flex";

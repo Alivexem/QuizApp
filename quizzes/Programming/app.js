@@ -1,6 +1,9 @@
 
 
-
+let next_button = document.querySelectorAll(".next")
+next_button.forEach((button) => {
+    button.style.pointerEvents = "none"
+})
 const menuBtn = document.getElementById("menu");
 const menu = document.getElementById("menuwrap");
 let click = true

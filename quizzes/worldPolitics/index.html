@@ -1,0 +1,386 @@
+<!DOCTYPE Html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" />
+    </head>
+    <body>
+        <header>
+        
+        <h1> BABEL </h1>
+        <i id="menu" class="fas fa-bars"></i>
+        </header>
+        <div id="menuwrap">
+                <p><a href="../../home/page2.html"> Back to home</a></p>
+                
+                <p id="refresh"> Refresh </p>
+        </div>
+        <hr>
+        <div id="info">
+            <p> WORLD POLITICS AND HISTORY</p>
+            <p>GOODLUCK ON THIS QUEST! </p>
+        </div>
+        
+        <hr>
+        <div id="buttonContainer">
+            <button id="btn">start quiz</button>
+        </div>
+        <div id="completed">
+            <p style="text-align: center; font-size: 30px; font-weight: bold; margin-top: -10px; color:lime;">QUIZ COMPLETED!</p>
+            <img id="complete" src="complete.png" alt="">
+            <p style="text-align: center; font-size: 30px; font-weight: bold; margin-top: -10px;">TOTAL SCORE: <span id="quizScore">0</span> out of 15</p>
+            <div id="seewrap">
+            <button id="see">See answers</button>
+        </div>
+        </div>
+        <div class="block">
+        <div id="one" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">1/15</p>
+            <div class="question">
+            <p>Who was the first President of the United States?</p>
+            </div>
+            <div class="wrap ones" data-value="false">
+                a. John Adams
+            </div>
+            
+            <div class="wrap ones" data-value="false">
+                 b.  Thomas Jefferson
+            </div>
+            
+            <div class="wrap ones" data-value="true">
+                 c. George Washington
+            </div>
+            <div class="butwrap">
+                
+                 <button id="onebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="two" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">2/15</p>
+            <div class="question">
+            <p>In which year did the Berlin Wall fall, marking the end of the Cold War?</p>
+            </div>
+            <div class="wrap twos" data-value="false">
+                a. 1985
+            </div>
+            
+            <div class="wrap twos" data-value="true">
+                 b. 1989
+            </div>
+            
+            <div class="wrap twos" data-value="false">
+                c. 1991
+            </div>
+            <div class="butwrap">
+                
+                 <button id="twobut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="three" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">3/15</p>
+            <div class="question">
+            <p>What international organization was established after World War II to promote peace and cooperation among countries?</p>
+            </div>
+            <div class="wrap threes" data-value="false">
+                a. NATO (North Atlantic Treaty Organization)
+            </div>
+            
+            <div class="wrap threes" data-value="true">
+                 b.  United Nations (UN)
+            </div>
+            
+            <div class="wrap threes" data-value="false">
+                 c. European Union (EU)
+            </div>
+            <div class="butwrap">
+                
+                 <button id="threebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="four" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">4/15</p>
+            <div class="question">
+            <p>Who was the leader of the Soviet Union during the Cuban Missile Crisis?</p>
+            </div>
+            <div class="wrap fours" data-value="true">
+                a. Nikita Khrushchev
+            </div>
+            
+            <div class="wrap fours" data-value="false">
+                 b. Joseph Stalin
+            </div>
+            
+            <div class="wrap fours" data-value="false">
+                 c. Mikhail Gorbachev
+            </div>
+            <div class="butwrap">
+                
+                 <button id="fourbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="five" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">5/15</p>
+            <div class="question">
+            <p>In what year did India gain independence from British rule?</p>
+            </div>
+            <div class="wrap fives" data-value="false">
+                a. 1945
+            </div>
+            
+            <div class="wrap fives" data-value="true">
+                 b.  1947
+            </div>
+            
+            <div class="wrap fives" data-value="false">
+                 c. 1950
+            </div>
+            <div class="butwrap">
+                
+                 <button id="fivebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="six" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">6/15</p>
+            <div class="question">
+            <p>Which ancient civilization is known for its contributions to philosophy, democracy, and theater?</p>
+            </div>
+            <div class="wrap sixs" data-value="false">
+                a. Roman Empire
+            </div>
+            
+            <div class="wrap sixs" data-value="false">
+                 b. Ancient Egypt  
+            </div>
+            
+            <div class="wrap sixs" data-value="true">
+                 c. Ancient Greece
+            </div>
+            <div class="butwrap">
+                
+                 <button id="sixbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="seven" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">7/15</p>
+            <div class="question">
+            <p>Who is often referred to as the "Iron Lady" and served as the Prime Minister of the United Kingdom from 1979 to 1990?</p>
+            </div>
+            <div class="wrap sevens" data-value="false">
+                a. Angela Merkel
+            </div>
+            
+            <div class="wrap sevens" data-value="true">
+                 b.  Margaret Thatcher
+            </div>
+            
+            <div class="wrap sevens" data-value="false">
+                 c. Theresa May
+            </div>
+            <div class="butwrap">
+                
+                 <button id="sevenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="eight" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">8/15</p>
+            <div class="question">
+            <p>Which country was divided into North and South following the Korean War in the early 1950s?</p>
+            </div>
+            <div class="wrap eights" data-value="false">
+                a. Vietnam
+            </div>
+            
+            <div class="wrap eights" data-value="true">
+                b. Korea
+            </div>
+            
+            <div class="wrap eights" data-value="false">
+                c. China
+            </div>
+            <div class="butwrap">
+                
+                 <button  id="eightbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="nine" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">9/15</p>
+            <div class="question">
+            <p>What event marked the beginning of World War II?</p>
+            </div>
+            <div class="wrap nines" data-value="false">
+                a. Bombing of Pearl Harbor
+            </div>
+            
+            <div class="wrap nines" data-value="true">
+                 b.  Invasion of Poland
+            </div>
+            
+            <div class="wrap nines" data-value="false">
+                c. Treaty of Versailles
+            </div>
+            <div class="butwrap">
+               
+                 <button id="ninebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="ten" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">10/15</p>
+            <div class="question">
+            <p>Who was the first woman to win a Nobel Prize and remains the only person to win Nobel Prizes in two different scientific fields?</p>
+            </div>
+            <div class="wrap tens" data-value="true">
+                a. Marie Curie
+            </div>
+            
+            <div class="wrap tens" data-value="false">
+                 b. Rosalind Franklin
+            </div>
+            
+            <div class="wrap tens" data-value="false">
+                c. Dorothy Crowfoot Hodgkin
+            </div>
+            <div class="butwrap">
+                
+                 <button id="tenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="eleven" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">11/15</p>
+            <div class="question">
+            <p>Which U.S. president signed the Civil Rights Act of 1964 into law, prohibiting discrimination based on race, color, religion, sex, or national origin?</p>
+            </div>
+            <div class="wrap elevens" data-value="false">
+                a. John F. Kennedy
+            </div>
+            
+            <div class="wrap elevens" data-value="true">
+                 b.  Lyndon B. Johnson
+            </div>
+            
+            <div class="wrap elevens" data-value="false">
+                c. Richard Nixon
+            </div>
+            <div class="butwrap">
+                
+                 <button id="elevenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="twelve" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">12/15</p>
+            <div class="question">
+            <p>What was the main focus of the Marshall Plan, initiated after World War II?</p>
+            </div>
+            <div class="wrap twelves" data-value="true">
+               a. Rebuilding Europe's economies
+            </div>
+            
+            <div class="wrap twelves" data-value="false">
+                b. Containing the spread of communism
+            </div>
+            
+            <div class="wrap twelves" data-value="false">
+                 c. Developing nuclear weapons
+            </div>
+            <div class="butwrap">
+               
+                 <button id="twelvebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="thirteen" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">13/15</p>
+            <div class="question">
+            <p>Which ancient empire was known for its extensive road network, legal system, and aqueducts?</p>
+            </div>
+            <div class="wrap thirteens" data-value="false">
+                a. Ottoman Empire
+            </div>
+            
+            <div class="wrap thirteens" data-value="true">
+                b.  Roman Empire
+            </div>
+            
+            <div class="wrap thirteens" data-value="false">
+                c. Persian Empire
+            </div>
+            <div class="butwrap">
+                
+                 <button id="thirteenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="fourteen" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">14/15</p>
+            <div class="question">
+            <p>In which year did the apartheid system officially end in South Africa?</p>
+            </div>
+            <div class="wrap fourteens" data-value="false">
+                a. 1989
+            </div>
+            
+            <div class="wrap fourteens" data-value="true">
+                b. 1994
+            </div>
+            
+            <div class="wrap fourteens" data-value="false">
+                c. 2000
+            </div>
+            <div class="butwrap">
+                
+                 <button id="fourteenbut"  class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="fifteen" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">15/15</p>
+            <div class="question">
+            <p>Who was the leader of the Cuban Revolution and served as Cuba's Prime Minister and President?</p>
+            </div>
+            <div class="wrap fifteens" data-value="true">
+               a. Fidel Castro 
+            </div>
+            
+            <div class="wrap fifteens" data-value="false">
+                 b.  Che Guevara
+            </div>
+            
+            <div class="wrap fifteens" data-value="false">
+                c. Raúl Castro  
+            </div>
+            <div class="butwrap">
+               
+                 <button id="fifteenbut" class="next" style="background-color: violet; width: 150px; height: 55px; font-size: 20px;"> Submit </button>
+            </div>
+        </div>
+        
+        </div>
+        
+        
+       
+        <footer>
+            <p>&copy copyright AlivexemTech 2024; all rights reserved.</p>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>

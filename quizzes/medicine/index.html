@@ -1,0 +1,386 @@
+<!DOCTYPE Html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" />
+    </head>
+    <body>
+        <header>
+        
+        <h1> BABEL </h1>
+        <i id="menu" class="fas fa-bars"></i>
+        </header>
+        <div id="menuwrap">
+                <p><a href="../../home/page2.html"> Back to home</a></p>
+                
+                <p id="refresh"> Refresh </p>
+        </div>
+        <hr>
+        <div id="info">
+            <p> GENERAL MEDICINE</p>
+            <p>GOODLUCK ON THIS QUEST! </p>
+        </div>
+        
+        <hr>
+        <div id="buttonContainer">
+            <button id="btn">start quiz</button>
+        </div>
+        <div id="completed">
+            <p style="text-align: center; font-size: 30px; font-weight: bold; margin-top: -10px; color:lime;">QUIZ COMPLETED!</p>
+            <img id="complete" src="complete.png" alt="">
+            <p style="text-align: center; font-size: 30px; font-weight: bold; margin-top: -10px;">TOTAL SCORE: <span id="quizScore">0</span> out of 15</p>
+            <div id="seewrap">
+            <button id="see">See answers</button>
+        </div>
+        </div>
+        <div class="block">
+        <div id="one" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">1/15</p>
+            <div class="question">
+            <p>What is the primary function of the pancreas in the human body?</p>
+            </div>
+            <div class="wrap ones" data-value="true">
+                a. Producing insulin and regulating blood sugar
+            </div>
+            
+            <div class="wrap ones" data-value="false">
+                 b.  Digesting fats and proteins
+            </div>
+            
+            <div class="wrap ones" data-value="false">
+                 c. Filtering toxins from the blood
+            </div>
+            <div class="butwrap">
+                
+                 <button id="onebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="two" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">2/15</p>
+            <div class="question">
+            <p>Which medical imaging technique uses strong magnetic fields and radio waves to generate detailed images of the body's internal structures?</p>
+            </div>
+            <div class="wrap twos" data-value="false">
+                a. X-ray
+            </div>
+            
+            <div class="wrap twos" data-value="false">
+                 b. CT scan (Computed Tomography)
+            </div>
+            
+            <div class="wrap twos" data-value="true">
+                c. MRI (Magnetic Resonance Imaging)
+            </div>
+            <div class="butwrap">
+                
+                 <button id="twobut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="three" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">3/15</p>
+            <div class="question">
+            <p>What is the purpose of a defibrillator in emergency medical situations?</p>
+            </div>
+            <div class="wrap threes" data-value="false">
+                a. Measuring blood pressure
+            </div>
+            
+            <div class="wrap threes" data-value="false">
+                 b.  Administering vaccines
+            </div>
+            
+            <div class="wrap threes" data-value="true">
+                 c. Restoring normal heart rhythm
+            </div>
+            <div class="butwrap">
+                
+                 <button id="threebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="four" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">4/15</p>
+            <div class="question">
+            <p>Which vitamin is essential for the absorption of calcium and bone health?</p>
+            </div>
+            <div class="wrap fours" data-value="false">
+                a. Vitamin C
+            </div>
+            
+            <div class="wrap fours" data-value="true">
+                 b. Vitamin D
+            </div>
+            
+            <div class="wrap fours" data-value="false">
+                 c. Vitamin K
+            </div>
+            <div class="butwrap">
+                
+                 <button id="fourbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="five" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">5/15</p>
+            <div class="question">
+            <p>What is the term for a medical condition characterized by the inflammation of the joints, causing pain and stiffness?</p>
+            </div>
+            <div class="wrap fives" data-value="true">
+                a. Arthritis
+            </div>
+            
+            <div class="wrap fives" data-value="false">
+                 b.  Osteoporosis
+            </div>
+            
+            <div class="wrap fives" data-value="false">
+                 c. Rheumatism
+            </div>
+            <div class="butwrap">
+                
+                 <button id="fivebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="six" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">6/15</p>
+            <div class="question">
+            <p>What is the main function of the kidneys in the human body?</p>
+            </div>
+            <div class="wrap sixs" data-value="false">
+                a. Producing hormones
+            </div>
+            
+            <div class="wrap sixs" data-value="true">
+                 b. Filtering and excreting waste products from the blood  
+            </div>
+            
+            <div class="wrap sixs" data-value="false">
+                 c. Regulating body temperature 
+            </div>
+            <div class="butwrap">
+                
+                 <button id="sixbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="seven" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">7/15</p>
+            <div class="question">
+            <p>In surgery, what does the acronym "LASIK" stand for?</p>
+            </div>
+            <div class="wrap sevens" data-value="false">
+                a. Laser-Assisted Surgical Incision and Keratoplasty
+            </div>
+            
+            <div class="wrap sevens" data-value="true">
+                 b.  Laser-Assisted In Situ Keratomileusis
+            </div>
+            
+            <div class="wrap sevens" data-value="false">
+                 c. Localized Anesthetic for Surgical Intervention and Keratinization
+            </div>
+            <div class="butwrap">
+                
+                 <button id="sevenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="eight" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">8/15</p>
+            <div class="question">
+            <p>Which of the following is a common symptom of a heart attack?</p>
+            </div>
+            <div class="wrap eights" data-value="false">
+                a. Persistent cough
+            </div>
+            
+            <div class="wrap eights" data-value="true">
+                b. Chest pain or discomfort
+            </div>
+            
+            <div class="wrap eights" data-value="false">
+                c. Blurred vision 
+            </div>
+            <div class="butwrap">
+                
+                 <button  id="eightbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="nine" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">9/15</p>
+            <div class="question">
+            <p>What is the purpose of an EpiPen in emergency medical situations?</p>
+            </div>
+            <div class="wrap nines" data-value="false">
+                a. Relieving pain
+            </div>
+            
+            <div class="wrap nines" data-value="true">
+                 b.  Administering epinephrine to treat severe allergic reactions 
+            </div>
+            
+            <div class="wrap nines" data-value="false">
+                c. Measuring blood sugar levels
+            </div>
+            <div class="butwrap">
+               
+                 <button id="ninebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="ten" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">10/15</p>
+            <div class="question">
+            <p>Which part of the human brain is responsible for coordinating voluntary muscle movements and maintaining balance?</p>
+            </div>
+            <div class="wrap tens" data-value="false">
+                a. Cerebrum
+            </div>
+            
+            <div class="wrap tens" data-value="true">
+                 b. Cerebellum
+            </div>
+            
+            <div class="wrap tens" data-value="false">
+                c. Medulla oblongata
+            </div>
+            <div class="butwrap">
+                
+                 <button id="tenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="eleven" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">11/15</p>
+            <div class="question">
+            <p>What is the medical term for the surgical removal of the appendix?</p>
+            </div>
+            <div class="wrap elevens" data-value="true">
+                a. Appendectomy
+            </div>
+            
+            <div class="wrap elevens" data-value="false">
+                 b.  Cholecystectomy
+            </div>
+            
+            <div class="wrap elevens" data-value="false">
+                c. Gastrectomy
+            </div>
+            <div class="butwrap">
+                
+                 <button id="elevenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="twelve" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">12/15</p>
+            <div class="question">
+            <p>Which type of cells are responsible for carrying oxygen to the rest of the body in the bloodstream?</p>
+            </div>
+            <div class="wrap twelves" data-value="false">
+               a. White blood cells
+            </div>
+            
+            <div class="wrap twelves" data-value="false">
+                b. Platelets 
+            </div>
+            
+            <div class="wrap twelves" data-value="true">
+                 c. Red blood cells
+            </div>
+            <div class="butwrap">
+               
+                 <button id="twelvebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="thirteen" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">13/15</p>
+            <div class="question">
+            <p>What is the purpose of an endoscopy in medical procedures?</p>
+            </div>
+            <div class="wrap thirteens" data-value="false">
+                a. Checking dental health
+            </div>
+            
+            <div class="wrap thirteens" data-value="true">
+                b.  Visualizing and examining the interior of a hollow organ or cavity
+            </div>
+            
+            <div class="wrap thirteens" data-value="false">
+                c. Removing kidney stones
+            </div>
+            <div class="butwrap">
+                
+                 <button id="thirteenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="fourteen" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">14/15</p>
+            <div class="question">
+            <p>What is the primary function of the thyroid gland?</p>
+            </div>
+            <div class="wrap fourteens" data-value="true">
+                a. Regulating metabolism by producing hormones
+            </div>
+            
+            <div class="wrap fourteens" data-value="false">
+                b. Filtering blood and removing toxins
+            </div>
+            
+            <div class="wrap fourteens" data-value="false">
+                c. Controlling blood pressure
+            </div>
+            <div class="butwrap">
+                
+                 <button id="fourteenbut"  class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="fifteen" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">15/15</p>
+            <div class="question">
+            <p>In dentistry, what is the common term for the surgical removal of a tooth?</p>
+            </div>
+            <div class="wrap fifteens" data-value="false">
+               a. Orthodontics 
+            </div>
+            
+            <div class="wrap fifteens" data-value="true">
+                 b.  Extraction
+            </div>
+            
+            <div class="wrap fifteens" data-value="false">
+                c. Implantation  
+            </div>
+            <div class="butwrap">
+               
+                 <button id="fifteenbut" class="next" style="background-color: violet; width: 150px; height: 55px; font-size: 20px;"> Submit </button>
+            </div>
+        </div>
+        
+        </div>
+        
+        
+       
+        <footer>
+            <p>&copy copyright AlivexemTech 2024; all rights reserved.</p>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>

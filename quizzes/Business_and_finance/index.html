@@ -1,0 +1,386 @@
+<!DOCTYPE Html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" />
+    </head>
+    <body>
+        <header>
+        
+        <h1> BABEL </h1>
+        <i id="menu" class="fas fa-bars"></i>
+        </header>
+        <div id="menuwrap">
+                <p><a href="../../home/page2.html"> Back to home</a></p>
+                
+                <p id="refresh"> Refresh </p>
+        </div>
+        <hr>
+        <div id="info">
+            <p>BUSINESS AND FINANCE </p>
+            <p>GOODLUCK ON THIS QUEST! </p>
+        </div>
+        
+        <hr>
+        <div id="buttonContainer">
+            <button id="btn">start quiz</button>
+        </div>
+        <div id="completed">
+            <p style="text-align: center; font-size: 30px; font-weight: bold; margin-top: -10px; color:lime;">QUIZ COMPLETED!</p>
+            <img id="complete" src="complete.png" alt="">
+            <p style="text-align: center; font-size: 30px; font-weight: bold; margin-top: -10px;">TOTAL SCORE: <span id="quizScore">0</span> out of 15</p>
+            <div id="seewrap">
+            <button id="see">See answers</button>
+        </div>
+        </div>
+        <div class="block">
+        <div id="one" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">1/15</p>
+            <div class="question">
+            <p>What is the primary purpose of a balance sheet?</p>
+            </div>
+            <div class="wrap ones" data-value="false">
+                a. Project future revenue 
+            </div>
+            
+            <div class="wrap ones" data-value="true">
+                 b.  Summarize financial transactions  
+            </div>
+            
+            <div class="wrap ones" data-value="false">
+                 c. Evaluate market trends  
+            </div>
+            <div class="butwrap">
+                
+                 <button id="onebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="two" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">2/15</p>
+            <div class="question">
+            <p>Which financial statement reflects a company's profitability over a specific period?</p>
+            </div>
+            <div class="wrap twos" data-value="false">
+                a. Balance sheet
+            </div>
+            
+            <div class="wrap twos" data-value="true">
+                 b. Income statement  
+            </div>
+            
+            <div class="wrap twos" data-value="false">
+                c. Cash flow statement
+            </div>
+            <div class="butwrap">
+                
+                 <button id="twobut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="three" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">3/15</p>
+            <div class="question">
+            <p>What does ROI stand for in finance?</p>
+            </div>
+            <div class="wrap threes" data-value="true">
+                a. Return on Investment 
+            </div>
+            
+            <div class="wrap threes" data-value="false">
+                 b.  Revenue of Income
+            </div>
+            
+            <div class="wrap threes" data-value="false">
+                 c. Rate of Inflation  
+            </div>
+            <div class="butwrap">
+                
+                 <button id="threebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="four" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">4/15</p>
+            <div class="question">
+            <p>In the stock market, what does the acronym IPO stand for?</p>
+            </div>
+            <div class="wrap fours" data-value="true">
+                a. Initial Public Offering
+            </div>
+            
+            <div class="wrap fours" data-value="false">
+                 b. International Profit Organization  
+            </div>
+            
+            <div class="wrap fours" data-value="false">
+                 c. Investor Protection Order 
+            </div>
+            <div class="butwrap">
+                
+                 <button id="fourbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="five" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">5/15</p>
+            <div class="question">
+            <p>What does the term "liquidity" refer to in finance?</p>
+            </div>
+            <div class="wrap fives" data-value="false">
+                a. Company debt 
+            </div>
+            
+            <div class="wrap fives" data-value="true">
+                 b.  Ease of converting assets to cash  
+            </div>
+            
+            <div class="wrap fives" data-value="false">
+                 c. Profit margin  
+            </div>
+            <div class="butwrap">
+                
+                 <button id="fivebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="six" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">6/15</p>
+            <div class="question">
+            <p>Which market index measures the performance of the 30 largest publicly traded companies in the United States?</p>
+            </div>
+            <div class="wrap sixs" data-value="false">
+                a. Nikkei
+            </div>
+            
+            <div class="wrap sixs" data-value="false">
+                 b. DAX  
+            </div>
+            
+            <div class="wrap sixs" data-value="true">
+                 c. Dow Jones Industrial Average 
+            </div>
+            <div class="butwrap">
+                
+                 <button id="sixbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="seven" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">7/15</p>
+            <div class="question">
+            <p>What is the role of the Federal Reserve in the United States?</p>
+            </div>
+            <div class="wrap sevens" data-value="false">
+                a.Fiscal policy implementation 
+            </div>
+            
+            <div class="wrap sevens" data-value="true">
+                 b.  Monetary policy regulation  
+            </div>
+            
+            <div class="wrap sevens" data-value="false">
+                 c. Corporate tax assessment  
+            </div>
+            <div class="butwrap">
+                
+                 <button id="sevenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="eight" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">8/15</p>
+            <div class="question">
+            <p>What is the purpose of a SWOT analysis in business strategy?</p>
+            </div>
+            <div class="wrap eights" data-value="false">
+                a. Evaluate market share
+            </div>
+            
+            <div class="wrap eights" data-value="true">
+                b. Assess internal strengths and weaknesses 
+            </div>
+            
+            <div class="wrap eights" data-value="false">
+                c. Calculate return on investment 
+            </div>
+            <div class="butwrap">
+                
+                 <button  id="eightbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="nine" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">9/15</p>
+            <div class="question">
+            <p>What is a common measure of a company's efficiency in managing its inventory?</p>
+            </div>
+            <div class="wrap nines" data-value="false">
+                a. Earnings per share 
+            </div>
+            
+            <div class="wrap nines" data-value="true">
+                 b.  Inventory turnover ratio  
+            </div>
+            
+            <div class="wrap nines" data-value="false">
+                c. Debt-to-equity ratio  
+            </div>
+            <div class="butwrap">
+               
+                 <button id="ninebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="ten" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">10/15</p>
+            <div class="question">
+            <p>What does the term "diversification" refer to in investment?</p>
+            </div>
+            <div class="wrap tens" data-value="false">
+                a. Concentrating investments in one sector
+            </div>
+            
+            <div class="wrap tens" data-value="true">
+                 b. Spreading investments across different assets  
+            </div>
+            
+            <div class="wrap tens" data-value="false">
+                c. Maximizing short-term gains 
+            </div>
+            <div class="butwrap">
+                
+                 <button id="tenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="eleven" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">11/15</p>
+            <div class="question">
+            <p>What is the function of a credit rating agency?</p>
+            </div>
+            <div class="wrap elevens" data-value="false">
+                a. Set interest rates 
+            </div>
+            
+            <div class="wrap elevens" data-value="true">
+                 b.  Evaluate the creditworthiness of entities  
+            </div>
+            
+            <div class="wrap elevens" data-value="false">
+                c. Manage stock portfolios 
+            </div>
+            <div class="butwrap">
+                
+                 <button id="elevenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="twelve" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">12/15</p>
+            <div class="question">
+            <p>Which financial ratio indicates a company's ability to meet its short-term obligations?</p>
+            </div>
+            <div class="wrap twelves" data-value="false">
+               a. Return on Equity (ROE)
+            </div>
+            
+            <div class="wrap twelves" data-value="true">
+                b. Current Ratio  
+            </div>
+            
+            <div class="wrap twelves" data-value="false">
+                 c. Debt-to-Asset Ratio 
+            </div>
+            <div class="butwrap">
+               
+                 <button id="twelvebut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="thirteen" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">13/15</p>
+            <div class="question">
+            <p>What is the purpose of a 401(k) retirement savings plan?</p>
+            </div>
+            <div class="wrap thirteens" data-value="false">
+                a. Tax-free savings for emergencies 
+            </div>
+            
+            <div class="wrap thirteens" data-value="true">
+                b.  Employer-sponsored retirement savings  
+            </div>
+            
+            <div class="wrap thirteens" data-value="false">
+                c. Short-term investment opportunities  
+            </div>
+            <div class="butwrap">
+                
+                 <button id="thirteenbut" class="next"> Next </button>
+            </div>
+        </div>
+        
+        
+        <div id="fourteen" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">14/15</p>
+            <div class="question">
+            <p>In finance, what does the term "bear market" refer to?</p>
+            </div>
+            <div class="wrap fourteens" data-value="false">
+                a. Rising stock prices
+            </div>
+            
+            <div class="wrap fourteens" data-value="true">
+                b. Declining stock prices 
+            </div>
+            
+            <div class="wrap fourteens" data-value="false">
+                c. Stable market conditions
+            </div>
+            <div class="butwrap">
+                
+                 <button id="fourteenbut"  class="next"> Next </button>
+            </div>
+        </div>
+        
+        <div id="fifteen" class="quest">
+            <p style="font-size: 18px; font-weight: bold;">15/15</p>
+            <div class="question">
+            <p>What is the main function of the Securities and Exchange Commission (SEC) in the United States?</p>
+            </div>
+            <div class="wrap fifteens" data-value="false">
+               a. Enforce corporate tax regulationsEnforce corporate tax regulations 
+            </div>
+            
+            <div class="wrap fifteens" data-value="true">
+                 b.  Regulate financial markets and protect investors  
+            </div>
+            
+            <div class="wrap fifteens" data-value="false">
+                c. Set interest rates for loans  
+            </div>
+            <div class="butwrap">
+               
+                 <button id="fifteenbut" class="next" style="background-color: violet; width: 150px; height: 55px; font-size: 20px;"> Submit </button>
+            </div>
+        </div>
+        
+        </div>
+        
+        
+       
+        <footer>
+            <p>&copy copyright AlivexemTech 2024; all rights reserved.</p>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>

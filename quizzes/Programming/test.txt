@@ -1,0 +1,108 @@
+16. In object-oriented programming, what is encapsulation?
+    a) The process of creating objects
+    b) Bundling data and methods that operate on the data into a single unit
+    c) Hiding the implementation details of a class
+
+17. Which design pattern is commonly used to create an object in a way that it can be easily cloned?
+    a) Singleton Pattern
+    b) Prototype Pattern
+    c) Factory Method Pattern
+
+18. What is the purpose of a lambda function in languages like Python?
+    a) Defining complex mathematical operations
+    b) Creating anonymous functions
+    c) Implementing class inheritance
+
+19. In the context of databases, what is ACID compliance?
+    a) A way to rank database performance
+    b) A set of properties ensuring database transactions are processed reliably
+    c) A coding standard for database queries
+
+20. Which sorting algorithm has an average time complexity of O(n log n)?
+    a) Bubble Sort
+    b) Merge Sort
+    c) Insertion Sort
+
+21. What is the primary use of the "yield" keyword in Python?
+    a) Interrupting the execution of a program
+    b) Creating a generator function
+    c) Defining class properties
+
+22. What is a closure in programming?
+    a) A function with no return statement
+    b) A combination of a function and the lexical environment within which that function was declared
+    c) A programming error caused by invalid syntax
+
+23. What is the purpose of the Solidity programming language?
+    a) Web development
+    b) Smart contract development for blockchain
+    c) Artificial intelligence
+
+24. Which design pattern promotes loose coupling between objects by allowing a subject to notify its observers without knowing who or what those observers are?
+    a) Observer Pattern
+    b) Command Pattern
+    c) Decorator Pattern
+
+25. What is memoization in the context of algorithms and programming?
+    a) A technique to optimize recursive algorithms by caching intermediate results
+    b) A process of compressing data for storage
+    c) A method for debugging complex code
+
+26. In networking, what is the purpose of the HTTP status code 404?
+    a) Server error
+    b) Not Found
+    c) Request timeout
+
+27. Which data structure is typically used to implement a LIFO (Last In, First Out) behavior?
+    a) Queue
+    b) Stack
+    c) Linked List
+
+28. What is the significance of the "volatile" keyword in programming languages like Java?
+    a) It indicates a variable that cannot be changed
+    b) It informs the compiler that the variable may be changed by multiple threads
+    c) It specifies constant values
+
+29. What is a monad in functional programming?
+    a) A type of algorithm
+    b) A design pattern for GUI applications
+    c) A structure that represents computations
+
+30. What is the purpose of the "async" and "await" keywords in languages like Python?
+    a) Synchronous code execution
+    b) Asynchronous programming, allowing non-blocking code execution
+    c) Memory management techniques
+    
+
+    
+Certainly! Here are the answers to the programming questions:
+
+16. b) Bundling data and methods that operate on the data into a single unit
+
+17. b) Prototype Pattern
+
+18. b) Creating anonymous functions
+
+19. b) A set of properties ensuring database transactions are processed reliably
+
+20. b) Merge Sort
+
+21. b) Creating a generator function
+
+22. b) A combination of a function and the lexical environment within which that function was declared
+
+23. b) Smart contract development for blockchain
+
+24. a) Observer Pattern
+
+25. a) A technique to optimize recursive algorithms by caching intermediate results
+
+26. b) Not Found
+
+27. b) Stack
+
+28. b) It informs the compiler that the variable may be changed by multiple threads
+
+29. c) A structure that represents computations
+
+30. b) Asynchronous programming, allowing non-blocking code execution

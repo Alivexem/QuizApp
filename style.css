@@ -1,0 +1,169 @@
+@media screen and (max-width: 650px) {
+    body {
+        background-color: #161616;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+     
+    #image{
+        height: 280px;
+        width: 280px;
+    }
+    #topic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -45px;
+        animation: fadeIn 1.5s ease-in-out;
+    }
+    #texts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -40px;
+        animation: fadeIn 2.3s ease-in-out;
+    }
+    h3{
+        color: white;
+        font-weight: bold;
+    }
+    #buttonContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+        animation: fadeIn 2.9s ease-in-out;
+    }
+    #btn{
+        background-color: #eed97c;
+        color: black;
+        width: 170px;
+        height: 40px;
+        border: none;
+        border-radius: 6px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #btn:active{
+        background-color: gray;
+    }
+    h3{
+        margin-bottom: 8px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    #rubix{
+        height: 250px;
+        width: 250px;
+    }
+    #rubix:active {
+        height: 270px;
+        width: 270px;
+    }
+    #wrap{
+        margin-top: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: fadeIn 3.3s ease-in-out;
+    }
+}
+
+
+
+/* SYSTEM RESPONSIVENESS BELOW*/
+@media screen and (min-width: 651px) {
+    body {
+        background-color: #161616;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+     
+    #image{
+        height: 320px;
+        width: 320px;
+    }
+    #topic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -25px;
+        animation: fadeIn 1.5s ease-in-out;
+    }
+    #texts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -25px;
+        animation: fadeIn 2.3s ease-in-out;
+    }
+    h3{
+        color: white;
+        font-weight: bold;
+    }
+    #buttonContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 45px;
+        animation: fadeIn 2.9s ease-in-out;
+    }
+    #btn{
+        background-color: #eed97c;
+        color: black;
+        width: 170px;
+        height: 40px;
+        border: none;
+        border-radius: 6px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #btn:active{
+        background-color: gray;
+    }
+    #btn:hover{
+        background-color: gray;
+    }
+    h3{
+        margin-bottom: 8px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    #rubix{
+        height: 250px;
+        width: 250px;
+    }
+    #rubix:active {
+        height: 270px;
+        width: 270px;
+    }
+    #rubix:hover {
+        height: 270px;
+        width: 270px;
+    }
+    #wrap{
+        margin-top: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: fadeIn 3.3s ease-in-out;
+    }
+}

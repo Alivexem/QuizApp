@@ -15,7 +15,7 @@ Welcome to Babel Quiz App! This app is designed to test your knowledge across a 
 
 1. **Clone the Repository:** Clone the Babel Quiz App repository to your local machine using Git.
     ```
-    git clone https://github.com/your-username/babel-quiz-app.git
+    git clone https://github.com/alivexem/QuizApp.git
     ```
 2. **Open Index.html:** Navigate to the project folder and open the `index.html` file in your web browser.
 3. **Choose a Category:** Select a category from the homepage to begin the quiz.
